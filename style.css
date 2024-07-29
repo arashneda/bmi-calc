@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background: linear-gradient(to left bottom, lightgreen, lightblue);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: rgb(192, 255, 150);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px black;
+    margin: 10px;
+}
+
+input{
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.btn{
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 3px 5px black;
+    border-radius: 5px;
+
+}
+
+.btn:hover{
+    filter: brightness(2);
+
+}
